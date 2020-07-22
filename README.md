@@ -24,3 +24,4 @@ npm run develop
 - [API Endpoints](https://strapi.io/documentation/v3.x/content-api/api-endpoints.html#endpoints)
 - [Configuration](https://strapi.io/documentation/v3.x/concepts/configurations.html)
 - [MongoDB Installation](https://strapi.io/documentation/v3.x/guides/databases.html#mongodb-installation)
+- [Authenticated request](https://strapi.io/documentation/v3.x/guides/auth-request.html#introduction)
