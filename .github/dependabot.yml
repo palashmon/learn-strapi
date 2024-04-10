@@ -5,15 +5,14 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
-    commit-message:
-      prefix: "chore"
-	    include: "scope"
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
+    commit-message:
+      prefix: "chore"
   - package-ecosystem: "github-actions"
     directory: "/"
-	  commit-message:
-      prefix: "chore(gh-actions)"
+    commit-message:
+      prefix: "chore"
     schedule:
       interval: "monthly"
